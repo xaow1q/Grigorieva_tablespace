@@ -1,0 +1,1 @@
+SELECT spcname, pg_size_pretty(pg_tablespace_sizespcname)) FROM pg_tablespace ORDER BY spcname;
